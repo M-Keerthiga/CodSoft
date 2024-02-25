@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Catalog</title>
+    <center><h1>Dress Catalog</h1></center>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .dress {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .dress img {
+            float: left;
+            margin-right: 20px;
+            width: 200px;
+            height: auto;
+        }
+        .dress h2 {
+            margin-top: 0;
+        }
+        .dress p {
+            margin: 0;
+            font-size: 16px;
+            color: #333;
+        }
+        .dress .cost {
+            color: #f00;
+            font-weight: bold;
+        }
+        .dress:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgb(20, 20, 21), 0 16px 16px rgba(0, 0, 0, 0.23);
+        }  
+        h2 {
+            padding-top: 100px;
+        }
+        .btn {
+            border: none;
+            font-size: 2rem;
+            border-radius: 15px;
+            padding: 10px;
+            background-color: #08d7ea;
+            color: #000000;
+            outline: 0;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            transition: all 0.2s;
+}
+.btn:hover {
+  background-color: #85efaeed;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+.background{
+  background-color: #b8c954;
+}
+    </style>
+</head>
+<body class="background">
+
+<div class="dress">
+    <img src="https://media.samyakk.com/pub/media/catalog/product/n/i/ni1619.jpg" alt="Dress 1">
+    <div>
+        <h2>Beautiful Floral Dress</h2>
+        <p>A stunning floral dress perfect for summer days. Made with high-quality fabric and available in various sizes.</p><br>
+        <p class="cost">$49.99</p><br>
+        <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+    </div>
+</div>
+
+<div class="dress">
+    <img src="https://media.samyakk.com/pub/media/catalog/product/h/c/hc1192-c.jpg" alt="Dress 2">
+    <div>
+        <h2>Elegant Evening Gown</h2>
+        <p>An elegant evening gown that will make you stand out at any formal event. Available in black, red, and blue.</p><br>
+        <p class="cost">$79.99</p><br>
+        <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+    </div>
+</div>
+
+<div class="dress">
+    <img src="https://media.samyakk.com/pub/media/catalog/product/n/g/ng3454.jpg" alt="Dress 3">
+    <div>
+        <h2>Little Black Dress</h2>
+        <p>Draped in dazzling black organza, this saree exudes timeless allure. 
+            Intricately embellished with sequins, beads, and cutdana, it's a radiant choice for any special occasion. 
+            Elevate your style and make a statement in this exquisite creation. There might be a little color variation 
+            in the image and original product due to photographic lighting sources or your monitor setting.</p><br>
+        <p class="cost">$525.93</p><br>
+        <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+    </div>
+</div>
+
+<div class="dress">
+    <img src="https://media.samyakk.com/pub/media/catalog/product/n/e/ne1956.jpg" alt="Dress 4">
+    <div>
+        <h2>Sage Green Sequins Embroidered Georgette Saree</h2>
+        <p>Step into elegance with the Sage Green Georgette Saree. Adorned with Zari Woven, Sequins, and 
+            Thread Work, it exudes sophistication. The gold-bordered Georgette fabric complements the lace work, 
+            while the matching silk blouse with Zari Woven and Lace Work adds the perfect finishing touch. 
+            Customizable unstitched blouse fabric for a personalized fit. There might be a little color variation in the 
+            image and original product due to photographic lighting sources or your monitor setting.</p><br>
+        <p class="cost">$156.73</p><br>
+        <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+    </div>
+</div>
+
+<div class="dress">
+    <img src="https://media.samyakk.com/pub/media/catalog/product/n/j/nj2277_1.jpg" alt="Dress 5">
+    <div>
+        <h2>Smoke Green Sequins Embroidered Shimmer Evening Gown</h2>
+        <p>An alluring gown in a smoky green shimmer, cascading to the floor with its graceful flared silhouette. 
+            Featuring an illusion neckline at the back and a leaf-shaped neckline at the front, it exudes sophistication. 
+            Adorned with delicate sequins, beads, and cutdana, it embodies timeless elegance for any occasion. 
+            There might be a little color variation in the image and original product due to photographic lighting sources or 
+            your monitor settings.</p><br>
+        <p class="cost">$571.78</p><br>
+        <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+    </div>
+</div>
+
+<div class="dress">
+    <img src="https://media.samyakk.com/pub/media/catalog/product/n/k/nk1168.jpg" alt="Dress 6">
+    <div>
+        <h2>White Swan Cream Sequins Embroidered Net Indowestern Gown</h2>
+        <p>A beautiful floor-length gown in White Swan Cream color with a U-neck and leaf neck design. 
+            The sleeveless, flared gown is made of net fabric with cutdana, sequins, stone, bead, and mirror work.
+            The accompanying dupatta is plain, matching the gown's elegance. 
+            There might be little color variations in the image and original products due to photographic lighting sources or 
+            your monitor settings.</p><br>
+        <p class="cost">$216.57</p><br>
+        <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+    </div>
+</div>
+
+</body>
+</html>
